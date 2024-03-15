@@ -21,3 +21,13 @@
 
 ## Articles/Guide
 - [The Hitchhiker's Guide to Python](https://docs.python-guide.org/)
+
+## Practice
+**Beginner friendly**
+- [Hackerrank](https://www.hackerrank.com/domains/python)
+- [Practice Python](https://www.practicepython.org/)
+- [Exercism](https://exercism.org/tracks/python/exercises)
+
+**More challenging**
+- [Project Euler](https://projecteuler.net/about)
+- [Leetcode](https://leetcode.com/problemset/)
