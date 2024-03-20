@@ -13,13 +13,15 @@
 - [The Mighty Dictionary, by Brandon Rhodes (PyCon 2010)](https://pyvideo.org/pycon-us-2010/the-mighty-dictionary-55.html)
 
 ## Courses
-- [Harvard's CS50: Intro to Computer Science](https://cs50.harvard.edu/x/2023/)
+- [Harvard's CS50: Intro to Computer Science](https://cs50.harvard.edu/x/2024/)
 - [Harvard's CS50: Intro to Programming with Python](https://cs50.harvard.edu/python/2022/)
 - [Harvard's CS50: Web Development with Python and JavaScript](https://cs50.harvard.edu/web/2020/)
 - [UC Berkeley's CS61B: Data Structures and Algorithms](https://sp24.datastructur.es/)
 - [Automate the Boring Stuff with Python](https://www.udemy.com/course/automate/) (Not Free!)
 
 ## Articles/Guide
+- [Python Roadmap](https://roadmap.sh/python)
+- [Roadmaps for different technologies](https://roadmap.sh/)
 - [The Hitchhiker's Guide to Python](https://docs.python-guide.org/)
 
 ## Practice
