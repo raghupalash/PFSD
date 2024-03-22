@@ -2,6 +2,10 @@
 
 ---
 
+## Introduction
+
+Welcome, everyone, to today's lecture on working with fundamental data structures in Python. We'll be delving into the versatile world of strings, lists, sets, tuples, and dictionaries. These structures are the building blocks of many Python programs, and understanding how to manipulate them effectively is crucial for any aspiring Python programmer.
+
 ## Strings
 
 Strings are sequences of characters, enclosed within single, double, or triple quotes. Let's start by exploring common operations and built-in functions for strings:
@@ -22,7 +26,7 @@ Lists are ordered collections of items, separated by commas and enclosed within 
 - **Inserting and Deleting:** Inserting elements at a specific position with `insert()` and removing elements by value with `remove()`.
 - **Sorting and Reversing:** Sorting a list using `sort()` and reversing the order of elements with `reverse()`.
 - `for`, `in`, `index`
-- List comprehension. 
+- List comprehension.
 	- `new_list = [item for item in old_list if condition]`
 - Packing and unpacking
 - Homework - 
@@ -37,7 +41,7 @@ Sets are unordered collections of unique elements, enclosed within curly braces.
 - **Adding and Removing:** Adding elements to a set using `add()` and removing elements with `remove()` or `discard()`.
 - **Union, Intersection, and Difference:** Combining sets with `union()`, finding common elements with `intersection()`, and finding differences with `difference()` and `symmetric_difference()`.
 - **Subset and Superset:** Checking if a set is a subset or superset of another set using `issubset()` and `issuperset()`.
-- Homework: Learn about `FrozenSet`.
+- `FrozenSet`.
 
 ## Tuples
 
@@ -51,9 +55,13 @@ Tuples are immutable ordered collections, enclosed within parentheses. Though th
 
 Dictionaries are unordered collections of key-value pairs, enclosed within curly braces and separated by colons. Key operations include:
 
-- **Accessing Values:** Accessing values by keys using square bracket notation.
+- **Accessing Values:** Accessing values by keys using square bracket notation. Also using `get()`.
 - **Adding and Updating:** Adding new key-value pairs or updating existing ones using square brackets.
 - **Removing:** Removing key-value pairs using `del` statement or `pop()` method.
 - **Iterating:** Iterating over keys, values, or key-value pairs using `keys()`, `values()`, and `items()` methods.
 
-Happy Coding!
+**NOTE**: 
+- `list`, `set`, `dict` are un-hashable, that is we can't store these in a `set` or `dict` Why?
+- See what is `break` an `continue` and why the are used?
+
+
