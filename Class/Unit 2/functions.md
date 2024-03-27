@@ -100,16 +100,69 @@
 
 ## VI. Lambda Functions
 
-- **Lambda Functions:**
-  - Anonymous functions defined using the `lambda` keyword.
-  - Concise way to create small functions.
-  - Example:
-    ```python
-    sqare = lambda x: x ** 2
-    ```
+- Anonymous functions in Python.
+- Defined using the `lambda` keyword.
+- Can have any number of arguments but only one expression.
+- Useful for short, simple functions.
+- Syntax: `lambda arguments: expression`.
 
-## VII. Conclusion
+### Example:
 
-- Functions are powerful tools in Python for code organization and reuse.
-- Understanding function arguments and usage enhances code efficiency and readability.
-- Continue exploring advanced topics like decorators and closures to further leverage the power of functions.
+- Regular function:
+```python
+def square(x):
+    return x * x
+```
+
+- Equivalent lambda function:
+```python
+square_lambda = lambda x: x * x
+```
+
+- Usage with functions like `map()`, `filter()`, `sort()` for concise operations on iterables.
+
+- Usage with `map`:
+```python
+numbers = [1, 2, 3, 4, 5]
+squared_numbers = list(map(lambda x: x * x, numbers))
+print(squared_numbers)  # Output: [1, 4, 9, 16, 25]
+```
+
+- Usage with `sort`:
+```python
+names = ['Alice', 'Bob', 'Charlie', 'David', 'Eve']
+names.sort(key=lambda x: len(x))
+print(names)  # Output: ['Bob', 'Eve', 'Alice', 'David', 'Charlie']
+
+students = [(2, "Alice"), (1, "Bob"), (4, "Charlie"), (5, "Eve")]
+students.sort(key=lambda x: x[0])
+print(students) # Output: ["Bob", "Alice", "Charlie", "Eve"]
+```
+
+## VII. Function Decorators:
+
+- Modify or extend the behavior of functions/methods without changing their code.
+- Implemented as callable Python objects (functions).
+- Take another function as input and return a new function.
+
+### Example:
+
+```python
+def uppercase_decorator(func):
+    def wrapper(*args, **kwargs):
+        result = func(*args, **kwargs)
+        return result.upper()
+    return wrapper
+
+#Function decorated with uppercase_decorator:
+@uppercase_decorator
+def greet(name):
+    return f"Hello, {name}!"
+
+g = greet("Alice")
+print(g) # Output: Hello, ALICE!
+```
+
+
+
+
