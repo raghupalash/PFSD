@@ -24,6 +24,10 @@
 - [Roadmaps for different technologies](https://roadmap.sh/)
 - [The Hitchhiker's Guide to Python](https://docs.python-guide.org/)
 
+## Tools/Software
+- [Obsidian](https://obsidian.md/) - For note taking.
+- [Anki](https://apps.ankiweb.net/) - Flashcard management software.
+
 ## Practice
 **Beginner friendly**
 - [Hackerrank](https://www.hackerrank.com/domains/python)
